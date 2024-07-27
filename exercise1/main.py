@@ -28,4 +28,4 @@ if __name__ == "__main__":
     print(annograms("staring"))
 
 
-# It was singifantly slower when i run the functions with lists
+# It was singifantly slower when I ran the functions with lists
