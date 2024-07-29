@@ -78,7 +78,7 @@ extraction >> run_dbt
 If the data wrangling and cleansing require substantial processing power, Google Dataproc can be used for heavy operations with Apache Spark. Apache Spark can handle parallel processing with many cores as needed. It is important to open and close Dataproc instances within the automated process to be resource-efficient. This can all be automated with Airflow.
 
 ## Data modeling
-DBT is ideal for modeling the data in the bronze database.
+DBT is ideal for modeling the data loaded in the bronze database.
 1. Create schemas in Big Query
 2. Create dbt models
     a. To adapt, clean and load the data into the silver database.
